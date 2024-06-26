@@ -1,52 +1,49 @@
 # Lending Club Case Study
-> Outline a brief description of your project.
+  Lending Club is a consumer finance company which specialises in lending various types of loans to urban customers. When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile.
+  
 
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* [Contributors](#contributors)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Purpose of this case study is to use EDA techniques to filter out user profiles based on patterns 
+  which can lead credit loss to the company.Through this case study we have have run the analysis on data
+  which highlighted reasons for charged off. 
+  
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- People opting for 60 months of payback period are highly likely to get default.
+- Probablitly of loan charged off is greater for porfile grade E,F,D.
+- Percentage of fully paid loans is much higher for employee over 10+ years of service.
+- Debt consolidation is very common reason for loans
+- Maximum no of loans are taken by those who live on rent or have their assets mortgaged.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python 3
+- Pandas
+- seaborn
+- matplotlib.pyplot
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
+## Contributors
+
+- Sandeep Aggarwal
+- Saisha Vartek (@SaishaV)
 
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@sandyaggarwal] - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
